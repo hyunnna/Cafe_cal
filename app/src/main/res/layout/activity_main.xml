@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFD4EF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* 커피선택 *"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_span="5"
+        android:gravity="center"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="HOT"
+        android:textSize="20dp"
+        app:backgroundTint="#DC9A9A"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="ICE"
+        android:textSize="20dp"
+        app:backgroundTint="#8BC5F3"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F5F5F6"
+        android:layout_margin="10dp" >
+
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor = "#000000"
+            android:text="AMERICANO"
+            app:backgroundTint="#B39D7E"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#C38E41"
+            android:textColor = "#000000"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text="LATTE"/>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor = "#000000"
+            android:layout_weight="3"
+            app:backgroundTint="#A8690D"
+            android:layout_margin="10dp"
+            android:text="MOCHA"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* 추가메뉴 *"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_span="5"
+        android:gravity="center"
+        android:layout_margin="5dp"/>
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="3"
+            android:textColor = "#000000"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:background="#FBFBFD">
+
+        <TableRow>
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="one shot"
+            android:textColor = "#000000"
+            android:layout_margin="3dp"
+            app:backgroundTint="#B4FBB7" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two shot"
+            android:textColor = "#000000"
+            android:padding="10dp"
+            android:layout_margin="3dp"
+            app:backgroundTint="#B8FD68" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="three shot"
+            android:layout_span="2"
+            android:textColor = "#000000"
+            app:backgroundTint="#8BFA0A" />
+
+        </TableRow>
+            <TableRow>
+
+             <Button
+                       android:id="@+id/btnw"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="5dp"
+                       android:text="waffle"
+                       app:backgroundTint="#FB99BA" />
+             <Button
+                    android:id="@+id/btncw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="choco waffle"
+                    app:backgroundTint="#FD0358" />
+              <Button
+                        android:id="@+id/btncreamw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_span="2"
+                        android:text="cream waffle"
+                        app:backgroundTint="#FF4C87" />
+            </TableRow>
+        </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFEB3B"
+        android:layout_margin="20dp">
+
+        <Button
+        android:id="@+id/btnresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_span="2"
+        android:text="결제금액 보여주세요! "
+        android:textColor = "#000000"
+        app:backgroundTint="#FF9800" />
+
+        <TextView
+            android:id="@+id/Textresult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_span="5"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
