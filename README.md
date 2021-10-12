@@ -1,5 +1,6 @@
-# Cafe_cal (Android)
+# Cafe_calculator (Android)
 ***
+
 * Mobile Programming_Week 5
 
 
