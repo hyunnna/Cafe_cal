@@ -5,8 +5,7 @@
 
 ### 1. Initial Screen
 
-![noname01](https://user-images.githubusercontent.com/62924325/136975332-1319fe2d-6e3b-4de4-a1d5-8318ea1313ed.jpg)
-<img src="https://user-images.githubusercontent.com/62924325/136975332-1319fe2d-6e3b-4de4-a1d5-8318ea1313ed.jpg" width="450px" height="1000px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+![noname01](https://user-images.githubusercontent.com/62924325/136975332-1319fe2d-6e3b-4de4-a1d5-8318ea1313ed.jpg)alt="RubberDuck"></img><br/>
 
 
 ### 2. Show price when touch each button
